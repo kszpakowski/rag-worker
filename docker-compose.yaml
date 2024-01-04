@@ -1,0 +1,8 @@
+version: v3
+services:
+  rag_worker:
+    container_name: rag-worker
+    build: .
+    ports:
+      - 80:80
+    restart: always
